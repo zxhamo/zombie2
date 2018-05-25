@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
             if (message.content === 'باك') {
-              message.channel.sendFile("ﯡڷــﯖــم ۖ مــڼــﯜڔ ۛ ּڀــ̍ا ̨؏ــڛــڶ ۖ مــن ڙمــٱن ּ؏ــڼــک :green_heart:");
+              message.channel.sendFile(" وّلّلّّكّكّممّّ نۨــۏڕٺ ۛ ּيۧ مۭــڗ ۛ ּ، ۛ ּمۭــنۨ ۖ ڙمۭــٰا̍نۨ ̨؏ــڼۨــک ۗ :rose::wave:");
             }
          });
 
