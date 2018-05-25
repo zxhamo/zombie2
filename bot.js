@@ -11,27 +11,29 @@ client.on('message', message => {
       }
 });
 
-client.on('message', msg => {
-  if (msg.content === 'باك') {
-    msg.channel.send('**وّلّلّّكّكّممّّ نۨــۏڕٺ ۛ ּيۧ مۭــڗ ۛ ּ، ۛ ּمۭــنۨ ۖ ڙمۭــٰا̍نۨ ̨؏ــڼۨــک ۗ :rose::wave:**');
-  }
-});;
 
-client.on('message', msg => {
-  if (msg.content === 'رابط') {
-    msg.channel.send('**``https://discord.gg/EXNztT6``**');
-  }
-});;
-
-client.on('message', msg => {
-  if (msg.content === 'الرابط') {
-    msg.channel.send('**``https://discord.gg/EXNztT6``**');
-  }
-});;
 
 client.on('message', msg => {
   if (msg.content === 'برب') {
-    msg.reply('** ٌــيَــتٌ يَ حٍــلُــۆ،  لُآ تٌــطًــۆلُ :disappointe**');
+    msg.reply('** ٌــيَــتٌ يَ حٍــلُــۆ،  لُآ تٌــطًــۆلُ :disappointed:**');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'رابط') {
+    msg.reply('** ``https://discord.gg/EXNztT6``**');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'الرابط') {
+    msg.reply('** ``https://discord.gg/EXNztT6``**');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'باك') {
+    msg.reply('**وّلّلّّكّكّممّّ نۨــۏڕٺ ۛ ּيۧ مۭــڗ ۛ ּ، ۛ ּمۭــنۨ ۖ ڙمۭــٰا̍نۨ ̨؏ــڼۨــک ۗ :rose::wave:**');
   }
 });
 
