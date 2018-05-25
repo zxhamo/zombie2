@@ -11,11 +11,11 @@ client.on('message', message => {
       }
 });
 
-client.on('message', message => {
-            if (message.content === 'باك') {
-              message.channel.sendFile(" وّلّلّّكّكّممّّ نۨــۏڕٺ ۛ ּيۧ مۭــڗ ۛ ּ، ۛ ּمۭــنۨ ۖ ڙمۭــٰا̍نۨ ̨؏ــڼۨــک ۗ :rose::wave:");
-            }
-         });
+client.on('message', msg => {
+  if (msg.content === 'الكلام') {
+    msg.channel.send('**الرد**');
+  }
+});;
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
