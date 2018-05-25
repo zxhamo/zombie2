@@ -12,8 +12,8 @@ client.on('message', message => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'الكلام') {
-    msg.channel.send('**الرد**');
+  if (msg.content === 'باك') {
+    msg.channel.send('**وّلّلّّكّكّممّّ نۨــۏڕٺ ۛ ּيۧ مۭــڗ ۛ ּ، ۛ ּمۭــنۨ ۖ ڙمۭــٰا̍نۨ ̨؏ــڼۨــک ۗ :rose::wave:**');
   }
 });;
 
