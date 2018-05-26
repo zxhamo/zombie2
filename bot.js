@@ -101,6 +101,12 @@ client.on('message', msg => {
 });
 
 
+client.on('message', msg => {
+  if (msg.content === '.....') {
+    msg.reply('**ۆعـلُـيَـگـم آلُـسـلُآم ۆرحٍـمةّ آلُلُہ ۆبْرگآتٌہ ، منْۆر. :rose: **');
+  }
+});
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
