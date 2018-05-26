@@ -102,7 +102,7 @@ client.on('message', msg => {
 
 
 client.on('message', msg => {
-  if (msg.content === '.....') {
+  if (msg.content === 'السلام عليكم') {
     msg.reply('**ۆعـلُـيَـگـم آلُـسـلُآم ۆرحٍـمةّ آلُلُہ ۆبْرگآتٌہ ، منْۆر. :rose: **');
   }
 });
