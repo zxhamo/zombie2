@@ -54,5 +54,53 @@ client.on('message', msg => {
   }
 });
 
+
+client.on('message', msg => {
+  if (msg.content === '.') {
+    msg.reply('**يلبى الى ينقط كمل يا حلو **');
+  }
+});
+
+
+
+client.on('message', msg => {
+  if (msg.content === '..') {
+    msg.reply('**لسا بدك تنقط كمل خلينا نشوف نقطك**');
+  }
+});
+
+
+
+client.on('message', msg => {
+  if (msg.content === '...') {
+    msg.reply('**ما اجمل نقطك كمل كمان  **');
+  }
+});
+
+
+
+client.on('message', msg => {
+  if (msg.content === '....') {
+    msg.reply('**خلاص ما بكمل كمل لوحدك **');
+  }
+});
+
+
+
+client.on('message', msg => {
+  if (msg.content === '.....') {
+    msg.reply('**انت حمار لسا  بتسمع كلامى :joy: **');
+  }
+});
+
+
+client.on('message', msg => {
+  if (msg.content === '......') {
+    msg.reply('**خلاص يا ابن الحلال وقف **');
+  }
+});
+
+
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
